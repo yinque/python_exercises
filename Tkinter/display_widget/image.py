@@ -1,3 +1,7 @@
+"""
+使用Label显示图片
+"""
+
 import tkinter as tk
 from PIL import ImageTk, Image
 
@@ -5,7 +9,7 @@ from PIL import ImageTk, Image
 root = tk.Tk()
 
 # 加载图片
-image = Image.open("pattern.png")
+image = Image.open("../_resource/pattern.png")
 photo = ImageTk.PhotoImage(image)
 
 # 创建 Label，并设置图片
