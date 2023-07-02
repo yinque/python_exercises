@@ -13,10 +13,11 @@ font = TTFont(font_file)
 name_table = font['name']
 family_name = name_table.getDebugName(1)  # 字体族名称
 style_name = name_table.getDebugName(2)  # 字体样式名称
-
-# 打印字体信息
 print("字体族名称:", family_name)
 print("字体样式名称:", style_name)
+
+# 获取字体中文名信息
+# todo
 
 # 关闭字体文件
 font.close()
