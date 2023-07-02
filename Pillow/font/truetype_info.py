@@ -9,7 +9,9 @@ font_file = 'comici.ttf'
 
 # 使用ImageFont.TrueType加载字体文件
 font = ImageFont.truetype(font_file)
-# 获取字体的名称
-font_name = font.getname()[0]
-
-print(font_name)
+# 字体信息
+print(font.getname())
+# 字体的名称
+print(font.getname()[0])
+# 字体样式，bold、italic等
+print(font.getname()[1])
